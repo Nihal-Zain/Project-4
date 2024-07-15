@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*        Header          Header    Header        Header                     */
+.clear-fix{
+    clear: both;
+}
+.header{
+    width: 100%;
+    background-image: url(image/bg.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.caption{
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 20%; 
+    margin: auto;
+    color: beige;
+}
+.caption h4{
+    font-size: 30px;
+    margin: 30px;
+}
+.caption h2{
+    font-size: 40px;
+    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.caption p{
+    font-size: 30px;
+    margin: 30px;
+}
+.caption .btn{
+    font-size: 20px;
+    margin: 20px;
+    padding: 25px 40px;
+    border: none;
+    border-radius: 10px;
+}
+.caption .btn1{
+    background-color:rgb(192, 167, 135);
+    color: white;
+}
+.btn1:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.caption .btn2{
+    border: solid 2px burlywood;
+    color: beige;
+    background: none;
+}
+.caption .btn2:hover{
+    background-color: beige;
+    color: black;
+}
+.bar{
+    text-align: left;
+    position: relative;
+}
+.bar img{
+    width: 12%;
+    margin: 20px;
+}
+.bar ul{
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.bar li{
+    float: right;
+    margin-left: 30px;
+
+}
+.bar a{
+    color: beige;
+}
+.bar a:hover{
+    color: burlywood;
+}
+/* About */ /* About */ /* About */ /* About */ /* About */ /* About */
+.container{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+.bakary-image img{
+    width: 45%;
+}
+.about-us{
+    width: 55%;
+    height: 50%;
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.about-us h3{
+    font-size: 30px;
+    margin: 35px;
+    padding-top: 40px;
+}
+.about-us  p{
+    font-size: 25px;
+    margin: 20px;
+    padding-top: 35px;
+    padding-left: 35px;
+    font-style: italic;
+}
+.icons{
+    margin-bottom: 50px;
+    width: 55%;
+    height: 40%;
+    float: right;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.icons img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline;
+    vertical-align: middle;
+    margin-left: 30px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+.icons p{
+    display: inline;
+    font-size: 20px;
+    vertical-align: middle;
+}
+/* location */ /* location */ /* location */ /* location */ /* location */
+
+.location{
+    background-color: gainsboro;
+    margin-top: 20px;
+}
+.location-imag{
+    width: 45%;
+    float: right;
+}
+.location-imag img{
+    width: 100%;
+}
+.text-location{
+    width: 55%;
+    float: right;
+    text-align: center;
+    margin-top: 30px;
+}
+.text-location h4{
+    font-size: 25px;
+    margin: 20px;
+    padding: 20px;
+}
+.text-location p{
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* baking */ /* baking */ /* baking */ /* baking */ /* baking */ /* baking */ 
+.baking{
+    margin-top: 20px;
+}
+.titlee{
+    text-align: center;
+}
+.titlee h3{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.titlee p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.meals{
+    margin-top: 20px;
+}
+.meal{
+    width: 33.33333333333333%;
+    text-align: center;
+    float: left;
+    padding: 10px;
+}
+.inner{
+   padding: 10px;
+}
+.meal h4{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.meal p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.meal img{
+    width: 100%;
+}
+/* info */ /* info */ /* info */ /* info */ /* info */ 
+.info{
+    margin-top: 20px;
+}
+.overdelay{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.map{
+    width: 45%;
+}
+.map img{
+    width: 100%;
+}
+.contact{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-info h3{
+font-size: 25px;
+padding: 20px;
+}
+.contact-info p{
+    font-size: 20px;
+    padding: 20px;
+    font-style: italic;
+}
+.contact .contant-details{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+ .contant-details img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+ }
+ .contant-details p{
+ }
+
